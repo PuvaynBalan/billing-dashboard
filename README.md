@@ -60,8 +60,6 @@ callAttempts (10 rows of data)
 
 ---
 
-## Data Journey
-
 ```
 YOU TYPE: npm run dev
         │
