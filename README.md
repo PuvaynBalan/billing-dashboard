@@ -59,56 +59,6 @@ callAttempts (10 rows of data)
 
 
 
-## Data Journey
-
-```
-
-YOU TYPE: npm run dev
-↓
-concurrently starts TWO things:
-node server/index.js → backend on port 3000
-vite → frontend on port 5173
-↓
-YOU OPEN: localhost:5173 in browser
-↓
-React app loads in browser
-↓
-App.jsx runs
-↓
-useState(null) creates empty data box
-↓
-useEffect fires automatically
-↓
-fetch() sends request to localhost:3000/api/billing/summary
-↓
-Express receives the request
-↓
-Routes to billing.js
-↓
-billing.js reads data from data.js
-↓
-Runs 5 calculations:
-
-1. totalCalls = 10
-2. totalSpent = 6.51
-3. talkTimeSeconds = 1056
-4. ptpCount = 4
-5. campaignData = [3 campaigns sorted by cost]
-   ↓
-   res.json() sends clean JSON back to React
-   ↓
-   React receives JSON
-   ↓
-   setData(json) fills the data box
-   ↓
-   React automatically refreshes the screen
-   ↓
-   BK COLLECTIONS sees their dashboard
-
-
----
-
-
 ## Getting Started
 
 ### 1. Clone the repository
