@@ -57,6 +57,8 @@ callAttempts (10 rows of data)
 
 ---
 
+
+
 ## Data Journey
 
 ```
@@ -102,6 +104,10 @@ Runs 5 calculations:
    React automatically refreshes the screen
    ↓
    BK COLLECTIONS sees their dashboard
+
+
+---
+
 
 ## Getting Started
 
